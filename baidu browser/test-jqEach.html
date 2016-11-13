@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <style>
+        #div {
+            width: 600px;
+            height: 600px;
+            border: 2px solid #000;
+            margin: 0 auto;
+        }
+        #div div {
+            float: left;
+            width: 100px;
+            height: 100px;
+            border: 2px solid blue;
+            background: pink;
+        }
+    </style>
+    <script src="js/jquery-2.2.4.js"></script>
+    <script>
+        $(function (){
+            var sum = 0;
+            $("#div div").each(function (){
+                sum += parseFloat($(this).css("width"));
+            });
+            console.log(sum);
+        })
+    </script>
+</head>
+<body>
+    <div id="div">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+</body>
+</html>
+    
