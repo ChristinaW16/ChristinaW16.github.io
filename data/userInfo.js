@@ -29,7 +29,7 @@ var userInfo = {
     userPhone: 17718530676,
     userOrignPlace:  "山东省青岛市" ,
     userSeatPlace:  "北京市",
-    userGithub: "ChristinaW6", 
+    userGithub: "ChristinaW16", 
     jobWant: "前端工程师",
 //  userExperience: "2年", 
     userLearning: ["ecmascript 6","react.js","Node.js","Vue.js"],
