@@ -76,32 +76,32 @@ var data = {
 		{
 			id:3000,
 			pid:0,
-			title:"我们的课程",
+			title:"我的图片",
 			type:"file",
 			status:false
 		},
 		{
 			id:9000,
 			pid:3000,
-			title:"js初级课程",
+			title:"自然风光",
 			status:false
 		},
 		{
 			id:8000,
 			pid:3000,
-			title:"js初级课程",
+			title:"动物世界",
 			status:false
 		},
 		{
 			id:984744,
 			pid:3000,
-			title:"js中级课程",
+			title:"卡通人物",
 			status:false
 		},
 		{
 			id:920485,
 			pid:3000,
-			title:"js高级课程",
+			title:"搞笑动图",
 			status:false
 		}
 	]
